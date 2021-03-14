@@ -187,7 +187,7 @@ namespace MetroCallouts3.Api
             {
                 using (WebClient webClient = new WebClient())
                 {
-                    using (webClient.OpenRead("https://mmods.000webhostapp.com/updatechecker/currentversion.html"))
+                    using (webClient.OpenRead("https://metrocallouts3.000webhostapp.com/updatechecker/currentversion.html"))
                         return true;
                 }
             }
