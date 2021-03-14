@@ -1,0 +1,40 @@
+C:\Users\Mikel\source\repos\MetroCallouts3\MetroCallouts3\bin\Debug\MetroCallouts3.dll
+C:\Users\Mikel\source\repos\MetroCallouts3\MetroCallouts3\bin\Debug\MetroCallouts3.pdb
+C:\Users\Mikel\source\repos\MetroCallouts3\MetroCallouts3\bin\Debug\LSPD First Response.dll
+C:\Users\Mikel\source\repos\MetroCallouts3\MetroCallouts3\bin\Debug\RagePluginHookSDK.dll
+C:\Users\Mikel\source\repos\MetroCallouts3\MetroCallouts3\bin\Debug\LSPD First Response.pdb
+C:\Users\Mikel\source\repos\MetroCallouts3\MetroCallouts3\bin\Debug\RagePluginHookSDK.xml
+C:\Users\Mikel\source\repos\MetroCallouts3\MetroCallouts3\obj\Debug\MetroCallouts3.csprojAssemblyReference.cache
+C:\Users\Mikel\source\repos\MetroCallouts3\MetroCallouts3\obj\Debug\MetroCallouts3.csproj.CoreCompileInputs.cache
+C:\Users\Mikel\source\repos\MetroCallouts3\MetroCallouts3\obj\Debug\MetroCallouts3.csproj.CopyComplete
+C:\Users\Mikel\source\repos\MetroCallouts3\MetroCallouts3\obj\Debug\MetroCallouts3.dll
+C:\Users\Mikel\source\repos\MetroCallouts3\MetroCallouts3\obj\Debug\MetroCallouts3.pdb
+C:\Users\Mikel\AppData\Local\Rockstar Games\GTA V\videos\rendered\MetroCallouts3.dll
+C:\Users\Mikel\AppData\Local\Rockstar Games\GTA V\videos\rendered\MetroCallouts3.pdb
+C:\Users\Mikel\Desktop\COMPILACION\MetroCallouts3.dll
+C:\Users\Mikel\Desktop\COMPILACION\MetroCallouts3.pdb
+C:\Users\Mikel\Desktop\mods\MetroCallouts3\MetroCallouts3\obj\Debug\MetroCallouts3.csprojAssemblyReference.cache
+C:\Users\Mikel\Desktop\mods\MetroCallouts3\MetroCallouts3\obj\Debug\MetroCallouts3.csproj.CoreCompileInputs.cache
+C:\Users\Mikel\Desktop\mods\MetroCallouts3\MetroCallouts3\obj\Debug\MetroCallouts3.csproj.CopyComplete
+C:\Users\Mikel\Desktop\mods\MetroCallouts3\MetroCallouts3\obj\Debug\MetroCallouts3.dll
+C:\Users\Mikel\Desktop\mods\MetroCallouts3\MetroCallouts3\obj\Debug\MetroCallouts3.pdb
+C:\Users\Mikel\Desktop\COMPILACION\1.3\MetroCallouts3.dll
+C:\Users\Mikel\Desktop\COMPILACION\1.3\MetroCallouts3.pdb
+C:\Users\Mikel\OneDrive\MetroCallouts3\MetroCallouts3\obj\Debug\MetroCallouts3.csprojAssemblyReference.cache
+C:\Users\Mikel\OneDrive\MetroCallouts3\MetroCallouts3\obj\Debug\MetroCallouts3.csproj.CoreCompileInputs.cache
+C:\Users\Mikel\OneDrive\MetroCallouts3\MetroCallouts3\obj\Debug\MetroCallouts3.dll
+C:\Users\Mikel\OneDrive\MetroCallouts3\MetroCallouts3\obj\Debug\MetroCallouts3.pdb
+C:\Users\Mikel\COMPILACION\1.3\MetroCallouts3.dll
+C:\Users\Mikel\COMPILACION\1.3\MetroCallouts3.pdb
+C:\Users\Mikel\OneDrive\MetroCallouts3\MetroCallouts3\obj\Debug\MetroCallouts3.csproj.CopyComplete
+C:\Users\Mikel\Desktop\desktop\COMPILACION\1.3\MetroCallouts3.dll
+C:\Users\Mikel\Desktop\desktop\COMPILACION\1.3\MetroCallouts3.pdb
+C:\Users\Mikel\Desktop\MetroCallouts3\compilacion\MetroCallouts3.dll
+C:\Users\Mikel\Desktop\MetroCallouts3\compilacion\MetroCallouts3.pdb
+C:\Users\Mikel\Desktop\MetroCallouts3\MetroCallouts3\obj\Debug\MetroCallouts3.csprojAssemblyReference.cache
+C:\Users\Mikel\Desktop\MetroCallouts3\MetroCallouts3\obj\Debug\MetroCallouts3.csproj.CoreCompileInputs.cache
+C:\Users\Mikel\Desktop\MetroCallouts3\MetroCallouts3\obj\Debug\MetroCallouts3.dll
+C:\Users\Mikel\Desktop\MetroCallouts3\MetroCallouts3\obj\Debug\MetroCallouts3.pdb
+C:\Users\Mikel\Desktop\compilacion\final\MetroCallouts3.dll
+C:\Users\Mikel\Desktop\compilacion\final\MetroCallouts3.pdb
+C:\Users\Mikel\Desktop\MetroCallouts3\MetroCallouts3\obj\Debug\MetroCallouts3.csproj.CopyComplete
