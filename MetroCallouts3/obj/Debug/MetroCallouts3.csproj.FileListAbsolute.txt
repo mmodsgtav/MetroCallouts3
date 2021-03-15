@@ -38,3 +38,10 @@ C:\Users\Mikel\Desktop\MetroCallouts3\MetroCallouts3\obj\Debug\MetroCallouts3.pd
 C:\Users\Mikel\Desktop\compilacion\final\MetroCallouts3.dll
 C:\Users\Mikel\Desktop\compilacion\final\MetroCallouts3.pdb
 C:\Users\Mikel\Desktop\MetroCallouts3\MetroCallouts3\obj\Debug\MetroCallouts3.csproj.CopyComplete
+D:\Users\Mikel\Documents\compilacion\final\MetroCallouts3.dll
+D:\Users\Mikel\Documents\compilacion\final\MetroCallouts3.pdb
+D:\Users\Mikel\Documents\MetroCallouts3\MetroCallouts3\obj\Debug\MetroCallouts3.csprojAssemblyReference.cache
+D:\Users\Mikel\Documents\MetroCallouts3\MetroCallouts3\obj\Debug\MetroCallouts3.csproj.CoreCompileInputs.cache
+D:\Users\Mikel\Documents\MetroCallouts3\MetroCallouts3\obj\Debug\MetroCallouts3.csproj.CopyComplete
+D:\Users\Mikel\Documents\MetroCallouts3\MetroCallouts3\obj\Debug\MetroCallouts3.dll
+D:\Users\Mikel\Documents\MetroCallouts3\MetroCallouts3\obj\Debug\MetroCallouts3.pdb

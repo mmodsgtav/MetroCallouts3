@@ -192,6 +192,7 @@ namespace MetroCallouts3.Callouts
                 if (blip2.Exists()) blip2.Delete();
                 Game.DisplayNotification("3dtextures", "mpgroundlogo_cops", "METRO CALLOUTS 3", "Código 4", "El sospechoso ha muerto o ha sido detenido. Servicio finalizado.");
                 Functions.PlayScannerAudio("WE_ARE_CODE_4 NO_FURTHER_UNITS_REQUIRED");
+                sospechoso.Dismiss();
                 base.End();
             }
                 base.Process();

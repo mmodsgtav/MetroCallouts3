@@ -34,10 +34,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="LSPD First Response">
-      <HintPath>..\..\compilacion\Dpendencies\LSPD First Response.dll</HintPath>
+      <HintPath>Dependencies\LSPD First Response.dll</HintPath>
     </Reference>
     <Reference Include="RagePluginHookSDK">
-      <HintPath>..\..\compilacion\Dpendencies\RagePluginHookSDK.dll</HintPath>
+      <HintPath>Dependencies\RagePluginHookSDK.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -54,7 +54,7 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
     <Reference Include="Traffic Policer">
-      <HintPath>..\..\compilacion\Dpendencies\Traffic Policer.dll</HintPath>
+      <HintPath>Dependencies\Traffic Policer.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
