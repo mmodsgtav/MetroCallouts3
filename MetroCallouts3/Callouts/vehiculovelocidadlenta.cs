@@ -23,30 +23,34 @@ namespace MetroCallouts3.Callouts
         public Vehicle coche;
         public Blip blip1;
         public Persona persona_persona;
+        public bool accepted;
         public override bool OnBeforeCalloutDisplayed()
         {
+            accepted = false;
             spawn = World.GetNextPositionOnStreet(Game.LocalPlayer.Character.Position.Around(150f, 700f));
             this.CalloutPosition = spawn;
             this.ShowCalloutAreaBlipBeforeAccepting(spawn, 30f);
             
-            Model[] VehicleModels1 = new Model[]
-           {
-               "STOCKADE", "TRACTOR", "TRACTOR2" , "TAILGATER", "FAGGIO2", "CADDY", "CADDY2", "BUS", "MULE", "MULE2", "TRASH", 
-           };
-            coche = new Vehicle(VehicleModels1[new Random().Next(VehicleModels1.Length)], spawn);
-            if (coche.Model.Name == "STOCKADE")
-            {
-                persona = new Ped("s_m_m_armoured_02", spawn, 90f);
-            }
-            else { persona = new Ped(spawn); }
-            
-            persona.IsPersistent = true;
+
             CalloutMessage = "Vehículo circulando a velocidad lenta";
             Functions.PlayScannerAudioUsingPosition("WE_HAVE 0x1C20369B IN_OR_ON_POSITION", spawn);
             return base.OnBeforeCalloutDisplayed();
         }
         public override bool OnCalloutAccepted()
         {
+            accepted = true;
+            Model[] VehicleModels1 = new Model[]
+{
+               "STOCKADE", "TRACTOR", "TRACTOR2" , "TAILGATER", "FAGGIO2", "CADDY", "CADDY2", "BUS", "MULE", "MULE2", "TRASH",
+};
+            coche = new Vehicle(VehicleModels1[new Random().Next(VehicleModels1.Length)], spawn);
+            if (coche.Model.Name == "STOCKADE")
+            {
+                persona = new Ped("s_m_m_armoured_02", spawn, 90f);
+            }
+            else { persona = new Ped(spawn); }
+
+            persona.IsPersistent = true;
             persona_persona = LSPD_First_Response.Mod.API.Functions.GetPersonaForPed(persona);
             LSPD_First_Response.Mod.API.Functions.SetVehicleOwnerName(coche, persona_persona.FullName);
             Game.DisplayHelp("Pulsa ~b~Fin~w~ en cualquier momento para finalizar la llamada", 10000);
@@ -55,6 +59,7 @@ namespace MetroCallouts3.Callouts
             blip1 = coche.AttachBlip();
             blip1.Color = Color.DarkRed;
             blip1.EnableRoute(Color.Red);
+            
             return base.OnCalloutAccepted();
             
         }
@@ -65,11 +70,6 @@ namespace MetroCallouts3.Callouts
             {
                 End();
                 Game.LogTrivialDebug("Fin pulsado.");
-            }
-            bool test = true;
-            if (Game.LocalPlayer.Character.Position.DistanceTo(coche) < 25f && test == true) {
-                Game.DisplaySubtitle("Realiza una parada de tráfico al sospechoso.", 3000);
-                test = false;
             }
             base.Process();
         }
@@ -82,10 +82,12 @@ namespace MetroCallouts3.Callouts
         }
         public override void End()
         {
-            if (blip1.Exists()) blip1.Delete();
-            
-            Game.DisplayNotification("3dtextures", "mpgroundlogo_cops", "METRO CALLOUTS 3", "Código 4", "Servicio finalizado.");
-            Functions.PlayScannerAudio("WE_ARE_CODE_4 NO_FURTHER_UNITS_REQUIRED");
+            if (accepted == true) {
+                if (blip1.Exists()) blip1.Delete();
+
+                Game.DisplayNotification("3dtextures", "mpgroundlogo_cops", "METRO CALLOUTS 3", "Código 4", "Servicio finalizado.");
+                Functions.PlayScannerAudio("WE_ARE_CODE_4 NO_FURTHER_UNITS_REQUIRED");
+            }
             base.End();
         }
     }

@@ -207,6 +207,11 @@ namespace MetroCallouts3.Api
         {
             "46EEK574", "45KSL897", "78HSJ326", "63HST45"
         };
+
+        public static string[] patrullas = new string[]
+            {
+                Main.EntryPoint.getpatrol1(), Main.EntryPoint.getpatrol2(), Main.EntryPoint.getpatrol3(), Main.EntryPoint.getpatrol4(), Main.EntryPoint.getpatrol5()  
+            };
         public static void Acabar()
         {
             Game.DisplayNotification("3dtextures", "mpgroundlogo_cops", "METRO CALLOUTS 3", "Código 4", "Servicio finalizado.");

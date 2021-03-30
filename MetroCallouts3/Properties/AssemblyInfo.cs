@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("mmodsgtav")]
 [assembly: AssemblyProduct("MetroCallouts3")]
-[assembly: AssemblyCopyright("Copyright ©MMODSGTAV  2019")]
+[assembly: AssemblyCopyright("Copyright ©MMODSGTAV  2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

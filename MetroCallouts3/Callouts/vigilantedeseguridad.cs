@@ -35,12 +35,14 @@ namespace MetroCallouts3.Callouts
         public bool agresion;
         public LHandle persecucion;
         public bool isSecurityFighted;
-        
+        public bool accepted;
+
         public override bool OnBeforeCalloutDisplayed()
         {
             rnd = new Random();
             num1 = rnd.Next(1, 3);
-
+            accepted = false;
+            
             if (num1 == 1)
             {
                 spawn = new Vector3(-810, -143, 28);
@@ -69,9 +71,9 @@ namespace MetroCallouts3.Callouts
         }
         public override bool OnCalloutAccepted()
         {
+            accepted = true;
             isSecurityFighted = false;
             vigilante.Inventory.GiveNewWeapon("WEAPON_NIGHTSTICK", 10, true);
-            
             agresion = false;
             isHelpShowed = false;
             isHelpShowed2 = false;
@@ -199,13 +201,19 @@ namespace MetroCallouts3.Callouts
         }
         public override void End()
         {
-            
-            if (vigilante.Exists()) vigilante.Dismiss();
-            if (blip1.Exists()) blip1.Delete();
-            if (blip2.Exists()) blip2.Delete();
-            Game.DisplayNotification("3dtextures", "mpgroundlogo_cops", "METRO CALLOUTS 3", "Código 4", "Servicio finalizado.");
-            Functions.PlayScannerAudio("WE_ARE_CODE_4 NO_FURTHER_UNITS_REQUIRED");
-            
+            if (accepted == true)
+            {
+                if (vigilante.Exists()) vigilante.Dismiss();
+                if (blip1.Exists()) blip1.Delete();
+                if (blip2.Exists()) blip2.Delete();
+                Game.DisplayNotification("3dtextures", "mpgroundlogo_cops", "METRO CALLOUTS 3", "Código 4", "Servicio finalizado.");
+                Functions.PlayScannerAudio("WE_ARE_CODE_4 NO_FURTHER_UNITS_REQUIRED");
+                Game.Console.Print("[MetroCallouts3] Callout was accepted.");
+            }
+            else
+            {
+                Game.Console.Print("[MetroCallouts3] Callout was not accepted.");
+            }
             base.End();
         }
     }
