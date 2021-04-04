@@ -10,6 +10,7 @@ using MetroCallouts3.Callouts;
 using System.Drawing;
 using System.IO;
 using LSPD_First_Response.Mod.API;
+using Rage.Native;
 
 namespace MetroCallouts3.Api
 {
@@ -216,6 +217,25 @@ namespace MetroCallouts3.Api
         {
             Game.DisplayNotification("3dtextures", "mpgroundlogo_cops", "METRO CALLOUTS 3", "Código 4", "Servicio finalizado.");
             Functions.PlayScannerAudio("WE_ARE_CODE_4 NO_FURTHER_UNITS_REQUIRED");
+        }
+
+        public static int getDiscriminer(int value1, int value2)
+        {
+            Random rnd;
+            rnd = new Random();
+            int definitivo;
+            definitivo = rnd.Next(value1, value2);
+            return definitivo;
+        }
+        public static void displayCalloutMessage(string Title, string Description)
+        {
+            Game.DisplayNotification("char_call911", "char_call911", Main.EntryPoint.NombreAgencia(), Title, Description);
+        }
+
+
+        public static bool doesExtraExist(Vehicle vehicle, int extra)
+        {
+            return NativeFunction.Natives.DOES_EXTRA_EXIST<bool>(vehicle, extra);
         }
     }
 

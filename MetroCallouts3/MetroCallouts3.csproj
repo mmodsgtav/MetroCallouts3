@@ -59,6 +59,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Api\Api.cs" />
+    <Compile Include="Callouts\accidente1.cs" />
+    <Compile Include="Callouts\asaltoapolicias.cs" />
     <Compile Include="Callouts\caravanailegal.cs" />
     <Compile Include="Callouts\Disparos.cs" />
     <Compile Include="Callouts\personasospechosaconarma.cs" />

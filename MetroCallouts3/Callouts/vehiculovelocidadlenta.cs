@@ -71,6 +71,12 @@ namespace MetroCallouts3.Callouts
                 End();
                 Game.LogTrivialDebug("Fin pulsado.");
             }
+            bool test = true;
+            if (Game.LocalPlayer.Character.Position.DistanceTo(coche) < 25f && test == true)
+            {
+                Game.DisplaySubtitle("Realiza una parada de tráfico al sospechoso.", 3000);
+                test = false;
+            }
             base.Process();
         }
         public override void OnCalloutNotAccepted()
