@@ -75,7 +75,7 @@ public class Main : Plugin
         LSPD_First_Response.Mod.API.Functions.RegisterCallout(typeof(Vehiculosingasolina));
         LSPD_First_Response.Mod.API.Functions.RegisterCallout(typeof(vehiculovelocidadlenta));
         LSPD_First_Response.Mod.API.Functions.RegisterCallout(typeof(vigilantedeseguridad));
-        LSPD_First_Response.Mod.API.Functions.RegisterCallout(typeof(Disparos));
+        //LSPD_First_Response.Mod.API.Functions.RegisterCallout(typeof(Disparos));
         LSPD_First_Response.Mod.API.Functions.RegisterCallout(typeof(accidente1));
         LSPD_First_Response.Mod.API.Functions.RegisterCallout(typeof(asaltoapolicias));
         

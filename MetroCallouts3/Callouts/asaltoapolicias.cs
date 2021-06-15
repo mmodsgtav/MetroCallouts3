@@ -49,8 +49,8 @@ namespace MetroCallouts3.Callouts
         {
             done = false;
             wascalloutaccepted = false;
-            discriminer2 = MetroCallouts3.Api.Api.getDiscriminer(1, 3);
-            discriminer = MetroCallouts3.Api.Api.getDiscriminer(1, 3);
+            discriminer2 = 1;
+            discriminer = MetroCallouts3.Api.Api.getDiscriminer(1, 2);
             Game.LogTrivial($"[MetroCallouts3] Discriminer value for asaltoapolicia.cs is {discriminer}");
             heading = 0f;
             if (discriminer == 1)
